@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hopper">
         <activity
-            android:name=".RegisterActivty"
+            android:name=".DescriptionActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".Places"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MenuScreen"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +27,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".forgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivty"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

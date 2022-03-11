@@ -3,10 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/drawable-v24/edittext_background.xml" value="0.14322916666666666" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/drawable-v24/shape.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/drawable/edit_text_background.xml" value="0.14322916666666666" />
         <entry key="..\:/Android Projects/Hopper/app/src/main/res/drawable/ic_front_image.xml" value="0.14322916666666666" />
-        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/activity_description.xml" value="0.12708333333333333" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/activity_forgot_password.xml" value="0.264" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/activity_home_screen.xml" value="0.25" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/activity_main.xml" value="0.12708333333333333" />
-        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/activity_register_activty.xml" value="0.12708333333333333" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/activity_menu_screen.xml" value="0.12708333333333333" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/activity_places.xml" value="0.25" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/activity_register_activty.xml" value="0.264" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/edittext_background.xml" value="0.12708333333333333" />
+        <entry key="..\:/Android Projects/Hopper/app/src/main/res/layout/places.xml" value="0.12708333333333333" />
       </map>
     </option>
   </component>

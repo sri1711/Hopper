@@ -10,17 +10,23 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="Create Account"
+        android:textColor="@color/black"
+        android:fontFamily="@font/cantata_one"
         android:textStyle="bold"
+        android:layout_marginTop="20dp"
         android:textSize="32sp"
         android:gravity="center"/>
+
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:id="@+id/et_mobile_no"
-        android:hint="Mobile No"
+        android:id="@+id/et_name"
+        android:hint="Name"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:paddingLeft="5dp"
@@ -31,8 +37,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:id="@+id/et_mobile_no"
+        android:hint="Email"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:id="@+id/et_password"
-        android:hint="Mobile No"
+        android:gravity="center"
+        android:background="@drawable/edit_text_background"
+        android:hint="Password"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:paddingLeft="5dp"
@@ -43,9 +66,14 @@
         android:id="@+id/btn_Register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:paddingHorizontal="60dp"
+        android:paddingVertical="20dp"
+        android:text="Register"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/ic_login" />
 
 
 </LinearLayout>

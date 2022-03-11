@@ -1,5 +1,6 @@
 package com.rajalakshmi.hopper
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -24,6 +25,16 @@ class LoginActivity : AppCompatActivity() {
             Login()
         }
 
+        findViewById<Button>(R.id.btForgotPassword).setOnClickListener {
+            val intent = Intent(this, forgotPasswordActivity::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<Button>(R.id.btn_signup).setOnClickListener {
+            val intent = Intent(this, RegisterActivty::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun Login() {
@@ -37,7 +48,9 @@ class LoginActivity : AppCompatActivity() {
 
                     Log.d("SRI1711", "signInWithEmail:success")
                     val user = auth.currentUser
-                    Log.i("SRI1711",user!!.email.toString())
+                    Log.i("SRI1711",user!!.displayName.toString())
+                    val intent = Intent(this,MenuScreen::class.java)
+                    startActivity(intent)
                 } else {
                     // If sign in fails, display a message to the user.
                     Log.w("SRI1711", "signInWithEmail:failure", task.exception)
