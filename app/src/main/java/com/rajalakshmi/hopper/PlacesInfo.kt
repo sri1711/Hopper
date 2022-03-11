@@ -6,6 +6,6 @@ import java.net.URL
 class PlacesInfo(
     var placeName: String,
     var placeImage: String,
-    var distance: String,
+    var description: String,
     var rating: Float
     )

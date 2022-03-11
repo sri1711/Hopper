@@ -43,20 +43,20 @@ class PlacesListAdapter(private val context: Context, private val items: ArrayLi
         val model = items[position]
 
         val placeName: String = model.placeName
-        val placeDistance: String = model.distance
+        val placeDistance: String = model.description
         val placeImage: String = model.placeImage
 
         Log.i("IMAGE",placeImage.toString())
         val rating: Float = model.rating
         holder.tvPlaceName.text = placeName
-        holder.tvDistance.text = placeDistance
+        //holder.tvDistance.text = placeDistance
         holder.drating.rating = rating
 //        val `in`: InputStream = URL("https://firebasestorage.googleapis.com/v0/b/agiledevs-89528.appspot.com/o/Gangotri.webp?alt=media&token=b1c7be76-634d-4432-b29c-62d21d716c31").openStream()
 //        var bimage = BitmapFactory.decodeStream(`in`)
 //        holder.ivPlaceImage.setImageBitmap(bimage)
         Picasso
             .get()
-            .load("https://firebasestorage.googleapis.com/v0/b/agiledevs-89528.appspot.com/o/Gangotri.webp?alt=media&token=b1c7be76-634d-4432-b29c-62d21d716c31")
+            .load(model.placeImage)
             .into(holder.ivPlaceImage)
         //holder.ivPlaceImage.setImageBitmap(get "https://firebasestorage.googleapis.com/v0/b/agiledevs-89528.appspot.com/o/Gangotri.webp?alt=media&token=b1c7be76-634d-4432-b29c-62d21d716c31".toUri())
         holder.tvRating.text = rating.toString()
